@@ -77,6 +77,6 @@ def main(arg1, argv):
 
 if __name__ == "__main__":
   if (len(sys.argv) < 3):
-    print 'Usage: progname action segment_ids'
+    print 'Usage: segments action segment_ids'
   else:
     main(sys.argv[1],sys.argv[2:])
